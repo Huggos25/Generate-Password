@@ -72,9 +72,9 @@ def main():
         if salvar.upper() == "":
             with open("password.txt", "a") as arquivo:
                 arquivo.write("\n")
-                arquivo.write("#####################\n")
-                arquivo.write("#-PASSWORDS GERADAS-#\n")
-                arquivo.write("#####################\n")
+                arquivo.write("######################\n")
+                arquivo.write("#GENERATED PASSWORDS#\n")
+                arquivo.write("######################\n")
                 arquivo.write("\n------------------------\n")
                 arquivo.write("Password: ")
                 arquivo.write("".join(pwdfinal))
